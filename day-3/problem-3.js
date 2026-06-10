@@ -1,0 +1,13 @@
+/*Problem 13: Remove Duplicates from Array  [Easy]
+Description: Write a function removeDuplicates(arr) that returns a new array with duplicate values removed.
+Example:
+Input: [1, 2, 2, 3, 3, 4]  → Output: [1, 2, 3, 4]
+Hint: Use Set or filter() with indexOf().*/
+
+const removeDuplicates = (arr)=> {
+    const result = [... new Set(arr)]//use spreed operator
+    return result; 
+}
+
+
+console.log(removeDuplicates([1, 2, 2, 3, 3, 4]));//output [ 1, 2, 3, 4 ]
