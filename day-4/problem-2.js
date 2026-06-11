@@ -5,3 +5,12 @@
 // Hint: Use the spread operator or Object.assign().
 
 //===================problem solve 17================
+
+//========2ta object ke ekta object e convert kora lagbe======
+
+const mergeObjects =(obj1, obj2)=>{
+    const result = {... obj1, ... obj2}
+    return result;
+}
+
+console.log(mergeObjects({a:1}, {b:2}))//{ a: 1, b: 2 }
