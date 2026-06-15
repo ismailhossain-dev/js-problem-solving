@@ -7,9 +7,9 @@
 
 //===================problem solve 18================
 
-const fizzBuzz = (n)=>{
-    //paremater joto hobe totokn cholbe loof ta
-    for(let i = 0; i < n ; 1++){
-        
-    }
-}
+// const fizzBuzz = (n)=>{
+//     //paremater joto hobe totokn cholbe loof ta
+//     for(let i = 0; i < n ; 1++){
+//         if(n )
+//     }
+// }
