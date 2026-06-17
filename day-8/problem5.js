@@ -19,3 +19,5 @@ function groupBy(arr, key) {
         return acc;
     }, {});
 }
+
+groupBy()

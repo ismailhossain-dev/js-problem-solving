@@ -33,3 +33,5 @@ function flattenObject(obj) {
 
     return result;
 }
+
+flattenObject()
