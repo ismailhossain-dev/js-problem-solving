@@ -5,3 +5,5 @@ Example:
 Input: [1,3,5,7,9], target=7  → Output: 3
 Hint: Use left and right pointers; check the middle element each iteration.
  */
+
+//==========আমরা 3 খুঁজব।===========

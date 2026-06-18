@@ -16,3 +16,5 @@ function isAnagram(str1, str2) {
 
 console.log(isAnagram('listen', 'silent'));
 console.log(isAnagram('hello', 'world'));
+
+//hello
