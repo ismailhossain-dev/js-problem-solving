@@ -10,4 +10,4 @@ const worldCount =(sentence)=> {
 
 const result = worldCount('the cat sat on the mat')
 
-console.log(result); //output
+console.log(result); //outputss
