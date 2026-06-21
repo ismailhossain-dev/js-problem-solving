@@ -6,8 +6,10 @@
 
 //===============Problem-3 solve=================
 
-function largest(a, b, c) {
-  return Math.max(a, b, c);
+//max number bahir korbo 
+
+const largest =(a, b , c)=> {
+  return Math.max(a, b, c)
 }
 
-console.log(largest(3, 7, 5)); //output 7
+console.log(largest(3, 7, 5));//output 7
