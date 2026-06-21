@@ -25,5 +25,4 @@ const swap2 =(a , b)=> {
    return [a, b]
 }
 
-console.log(swap(2, 3))//output C:\Important_Documents\Projects\js-problem-solving>node day-1/problem-1.js
-[ 3, 2 ]
+console.log(swap(2, 3))//output [ 3, 2 ]

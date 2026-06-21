@@ -7,13 +7,25 @@
 
 //===============Problem-2 solve=================
 
-const isEven = (n) => {
-  if (n % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
-};
+//method-1 
 
-console.log(isEven(4)); // true
-console.log(isEven(7)); // false
+const isEven = (n)=> {
+    // return n /2; 
+    return n % 2 === 0;
+}
+
+// console.log(isEven(4))//true
+// console.log(isEven(7))//false
+
+//method -2 
+
+const isEnve2 = (a) => {
+    if(a % 2 === 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isEnve2(8));//true
+console.log(isEnve2( 3));//false
