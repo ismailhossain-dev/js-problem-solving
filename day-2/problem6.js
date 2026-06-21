@@ -25,6 +25,14 @@ const reverseString=(str)=>{
     return str.split('').reverse().join('')
 }
 
-console.log(reverseString("hello"));//olleh
+//console.log(reverseString("hello"));//olleh
 
+
+//practice 
+
+const reverseString2 =(strr)=> {
+    return strr.split('').reverse().join('')
+}
+
+console.log(reverseString2('choto vai'));
 
