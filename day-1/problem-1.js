@@ -12,7 +12,18 @@
 const swap = (a, b) => {
     // এটাই মূল swap করার লাইন।
     [a, b] = [b, a];
-    return {a, b}
+    return [a, b]
 }
 
-console.log(swap(5, 10));//output 10 then 5
+//console.log(swap(5, 10));//output 10 then 5
+
+
+//practice problem -1 
+
+const swap2 =(a , b)=> {
+   [a, b] = [b, a];
+   return [a, b]
+}
+
+console.log(swap(2, 3))//output C:\Important_Documents\Projects\js-problem-solving>node day-1/problem-1.js
+[ 3, 2 ]
