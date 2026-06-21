@@ -5,16 +5,26 @@ Input: 'hello'   → Output: 'olleh'Input: 'world'   → Output: 'dlrow'
 Hint: Use split(''), reverse(), and join('').
 */
 
+//====================problem solve 6====================
 
-const reverseString = (str)=> {
-   return str.split("").reverse().join("")
-    // return result
+/**
+ * 1.split("")=> kaj kore string teke array te convert korar jonno like
+ * const str = "hello";
+    console.log(str.split(''));
+ * ['h', 'e', 'l', 'l', 'o']//output
+
+    2.why use split => reverse() method শুধুমাত্র Array-এর উপর কাজ করে
+
+    3.reverse()=> Array-এর element গুলো উল্টে দেয়।
+
+    4.join("")=> Array-এর element গুলোকে একসাথে জোড়া লাগিয়ে String বানায়। 
+    like "olleh"
+ */
+
+const reverseString=(str)=>{
+    return str.split('').reverse().join('')
 }
-console.log(reverseString("hello"));//output olleh
 
-//method-2 
+console.log(reverseString("hello"));//olleh
 
-const reverseString2 = "hello"
-const result = reverseString2.split("").reverse().join(" ");
 
-console.log (result)//output o l l e h
