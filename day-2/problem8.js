@@ -18,7 +18,7 @@ function isPalindrome(str) {
     // আবার array থেকে string বানানো হচ্ছে
     .join("");
 
-  // original string এবং reversed string একই কিনা compare করা হচ্ছে
+  // original string এবং reversed string একই কিনা compare করা হচ্ছে..
   return str === reversed;
 }
 
