@@ -6,4 +6,4 @@ Hint: Use split(char).length - 1 or a loop...
 
 */
 
-console.log("Hello");
+console.log("Hello sabbir");
