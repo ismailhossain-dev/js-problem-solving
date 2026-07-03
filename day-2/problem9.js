@@ -34,7 +34,7 @@ const titleCase2 = (strr) => {
 
 console.log(titleCase2("hello sabbir"));
 
-//practice
+//practice ...
 const titleCase3 = (strr) => {
     return strr
         .split(" ")
