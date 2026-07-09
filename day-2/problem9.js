@@ -42,4 +42,4 @@ const titleCase3 = (strr) => {
         .join(" ");
 }
 
-console.log(titleCase3("hello sabbir"));//output Hello Sabbir
+console.log(titleCase3("hello sabbir"));//output Hello Sabbir....,
