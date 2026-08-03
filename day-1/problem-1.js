@@ -6,23 +6,19 @@
 
 //=====================================================
 
-//=============Problem-1 Solve==============
-//a er output 10 and b er ouput 5 korte hobe
+//I will try to solve problem in function
 
 const swap = (a, b) => {
-    // এটাই মূল swap করার লাইন।
-    [a, b] = [b, a];
-    return [a, b]
+   a = a + b; //15 2ta valu + hoiche
+   b = a - b; // 10 -5 = 5;  b er value 5 bahir korchi
+   //console.log("hello",a)//15
+   a = a -b; //10 a er man
+   //console.log("a value", a)//ouput hobe 10
+    
+   //return {d, e} //retun ek value return kora jai tai amra {} diye 2 ta value return korlam
+    return {a, b}; 
+
 }
+ console.log (swap(5, 10))//a = 10 ; and b = 5; alhamdulillah solve problem
 
-//console.log(swap(5, 10));//output 10 then 5
 
-
-//practice problem -1 
-
-const swap2 =(a , b)=> {
-   [a, b] = [b, a];
-   return [a, b]
-}
-
-console.log(swap(2, 3))//output [ 3, 2 ]
