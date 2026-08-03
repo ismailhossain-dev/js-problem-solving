@@ -28,3 +28,14 @@ const reverseString =(str) => {
 }
 
 console.log(reverseString("hello"));//olleh
+
+
+//priactice day-2 problem -1
+
+const pokkie = (str2) => {
+   // split => string teke array te convert kore like [ 'l', 'i', 'k', 'e' ]
+   //reverse=> [ 'e', 'k', 'i', 'l' ]
+   //join=> ekil
+   return str2.split("").reverse().join("")
+}
+console.log(pokkie("like"));//output ekil
