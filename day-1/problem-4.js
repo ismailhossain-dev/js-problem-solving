@@ -24,4 +24,4 @@ console.log(toFahrenheit(0))
 
 // (0 × 9/5) + 32
 // = 0 + 32
-// = 32
+= 320
