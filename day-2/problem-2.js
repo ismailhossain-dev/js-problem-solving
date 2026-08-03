@@ -5,99 +5,42 @@ Input: 'hello'   → Output: 2 Input: 'javascript' → Output: 3
 Hint: Use a loop or match() with a regular expression.
 */
 
-/*function countVowels(str) {
-  // vowel-এর সংখ্যা রাখার জন্য variable
-  let count = 0;
-
-  // string-এর প্রতিটি character-এর উপর loop চালানো হচ্ছে
-  for (let char of str) {
-
-    // বর্তমান character vowel কিনা চেক করা হচ্ছে
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-
-      // vowel হলে count 1 বাড়ানো হচ্ছে
-      count++;
-    }
-  }
-
-  // মোট vowel সংখ্যা return করা হচ্ছে
-  return count;
-}*/
-
-// "hello" তে e এবং o আছে, তাই output 2
-// console.log(countVowels("hello"));
-
-// "javascript" তে a, a, i আছে, তাই output 3
-// console.log(countVowels("javascript"));
-
-//pracitce
-
-const countVowels2 = (str2) => {
-  let count = 0;
-
-  //first loop ta 5 bar chole
-  /**
-   * h,
-   * e,
-   * l,
-   * l,
-   * 0
-   */
-  for (let chrt of str2) {
-    if (
-      chrt === "a" ||
-      chrt === "e" ||
-      chrt === "i" ||
-      chrt === "o" ||
-      chrt === "u"
-    ) {
-      count++;
-    }
-  }
-  /**
-     * h -> vowel না
-    e -> vowel -> count = 1
-    l -> vowel না
-    l -> vowel না
-    o -> vowel -> count = 2
-     */
-
-    // return 2; count return ditechi karon amra ordesso holo count return kora or cheek kora vowel
-
-  return count;
-};
-
-console.log(countVowels2("hello")); //2 vowel e, 0
-console.log(countVowels2("javascript")); //output3 a, a, i
+//loop er mardome programatically cheek kore output ta bahir korbo 
 
 
+const countVowels = (str) => {
+    // Vowel-এর সংখ্যা গণনা করার জন্য
+    let count = 0;
 
-//=======practice problem-7============
+    // String-এর প্রতিটি Character Loop করে দেখছি
+    for (let i = 0; i < str.length; i++) {
 
-const countVowels3=(strrr) => {
-    let count3 = 0; 
-    for(let chello of strrr){
-        if(
-            chello === "a" ||
-            chello === "e" ||
-            chello === "i" ||
-            chello === "o" ||
-            chello === "u"
-
-        ){
-            count3++; 
+        // বর্তমান Character (str[i]) vowel কি না চেক করছি
+        if (
+            str[i] === "a" ||
+            str[i] === "e" ||
+            str[i] === "i" ||
+            str[i] === "o" ||
+            str[i] === "u"
+        ) {
+            // যদি vowel হয় তাহলে count ১ বাড়বে
+            count++;
         }
     }
-    return count3;
 
+    // Loop শেষ হলে মোট vowel-এর সংখ্যা return করছি
+    return count;
 }
 
-console.log(countVowels3("eoious"));//e, o, i, o, u output 5
-console.log(countVowels2("wowo"));//o, o, output 2
+console.log(countVowels("hello"));       // 2
+console.log(countVowels("javascript"));  // 3
+console.log(countVowels("apple"));       // 2
 
+
+//practice loop 50 count
+
+// let loo = 50;
+
+// for (let b = 0; b < loo; b++) {
+//     console.log("Loop is running:", b + 1);
+// }
