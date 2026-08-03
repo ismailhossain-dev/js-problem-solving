@@ -19,6 +19,5 @@ const swap = (a, b) => {
     return {a, b}; 
 
 }
- console.log (swap(5, 10))//a = 10 ; and b = 5; alhamdulillah solve problem
-
+ //console.log (swap(5, 10))//output a = 10 ; and b = 5; alhamdulillah solve problem
 

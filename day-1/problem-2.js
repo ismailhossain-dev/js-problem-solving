@@ -9,23 +9,14 @@
 
 //method-1 
 
-const isEven = (n)=> {
-    // return n /2; 
-    return n % 2 === 0;
-}
-
-// console.log(isEven(4))//true
-// console.log(isEven(7))//false
-
-//method -2 
-
-const isEnve2 = (a) => {
-    if(a % 2 === 0){
+const isEven = (n) => {
+    if (n%2 === 0) {
         return true;
-    }else{
-        return false;
+        
+    } else {
+        return false
     }
 }
 
-console.log(isEnve2(8));//true
-console.log(isEnve2( 3));//false
+console.log(isEven(2))//true 
+console.log(isEven(3))//false
