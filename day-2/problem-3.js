@@ -2,8 +2,9 @@
 Description: Write a function isPalindrome(str) that returns true if the string reads the same forwards and backwards.
 Example:
 Input: 'racecar'  → Output: trueInput: 'hello'    → Output: false
-Hint: Compare the string to its reverse.
+Hint: Compare the string to its reverse...
 */
 
 //============problem solve -8 ==========
+console.log("start problem solving-8");
 
