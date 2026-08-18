@@ -6,3 +6,9 @@ Hint: Use reduce() or a for loop.*/
 
 //======================problem solve 11======================
 
+function sumArray (arr) {
+    //reduce take 2 parameter 
+    return arr.reduce((current , local)=> current+local)
+}
+
+console.log(sumArray([1, 2, 3, 4, 5]));

@@ -25,3 +25,17 @@ function countChar(str, char) {
 
 //console.log(countChar("banana", "a"));//output-3
 
+//practice problem
+
+
+const countChar2 =(str, str1)=> {
+    let count2 = 0; 
+    for(let c = 0 ; c<str.length; c++){
+        if(str[c] === str1){
+            count2++; 
+        }
+    }
+    return count2; 
+}
+
+console.log(countChar2("sabbir", "b"));//output 2
