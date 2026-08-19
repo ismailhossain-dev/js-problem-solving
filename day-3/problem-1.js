@@ -11,4 +11,4 @@ function sumArray (arr) {
     return arr.reduce((current , local)=> current+local)
 }
 
-console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([1, 2, 3, 4, 5]));//output-15
