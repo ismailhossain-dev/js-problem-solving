@@ -4,13 +4,3 @@ Example:
 Input: [3, 1, 7, 2, 9]  → Output: 9
 Hint: Loop through and track the largest value foun*/
 
-// function findMax (arr) { 
-//   let count = 0; 
-//   for(let i = 0; i<arr.length; i++){
-//     const result = 
-//   }
-
-//   count; 
-// }
-
-// console.log(findMax([3, 1, 7, 2, 9]));
