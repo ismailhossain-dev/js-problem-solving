@@ -19,3 +19,7 @@ function findMax(numbers) {
 }
 
 console.log(findMax([3, 1, 7, 2, 9]));
+
+
+//practice-problem 12 
+
