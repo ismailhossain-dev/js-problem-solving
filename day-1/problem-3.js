@@ -14,7 +14,5 @@ const largest = (a, b , c) => {
 
 console.log(largest(3, 7, 5))//output 7 
 
-console.log("hellooooo")
 
-console.log("Hello world ")
 
