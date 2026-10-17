@@ -1,60 +1,69 @@
-//============problem-1 Reverse a String===========
-/**
- * split("") String-কে Array বানায়
- * reverse() Array উল্টায়
- * join("") আবার String বানায়
- */
-const reverseString = (str) => {
+//Problem-1 Reverse a String
+
+const reverseString = (str)=> {
   return str.split("").reverse().join("");
-};
+}
 
-//console.log(reverseString("hello"))
+// const result = reverseString("hello");
+// console.log(result)
 
-//============problem-2 Find the Largest Numbe===========
 
-const findLargest = (arr) => {
+//Problem-2 Find the latest number 
+
+const findLatest = (arr)=> {
   let latest = arr[0];
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > latest) {
-      latest = arr[i];
+
+  for(let i = 1 ; i <arr.length ; i++) {
+    if(arr[i] > latest) {
+      latest = arr[i]
     }
   }
+
   return latest;
-};
-
-//console.log(findLargest([30, 40, 80, 10]))
-
-//============= Check Palindrome Problem-3: =======
-//Problem: একটি String সামনে থেকে এবং পেছন থেকে একই কি না Check করো
-
-const isPalindrome = (str) => {
-    const reversed = str.split("").reverse().join("");
-
-    return str === reversed;
-};
-
-//console.log(isPalindrome("madam")); //false
-//console.log(isPalindrome("hello")); //true
-
-
-//=======Remove Duplicates from Array Problem:4================
-
-const removeDublicate = (arr)=> {
-   return [...new Set(arr)]
-
-    
 }
-//console.log(removeDublicate([1, 2, 2, 3, 4, 4, 5]))
+
+//console.log(findLatest([20, 30, 389, 38]))
 
 
-//===========Count Vowels in a String Problem:5==============
+//Problem-3 Check Palindrome
 
-const countVowels = (str)=> {
-    const Vowels = "aeiou";
+const isPalindrome =(str)=> {
+  const palid = str.split("").reverse().join("");
 
-    for(let i = 1 ; i<str.length ; i++){
-        
+  return str === palid;
+  
+}
+
+// console.log(isPalindrome("madam"))
+// console.log(isPalindrome("hello"))
+
+
+//Problem-4: Remove Duplicates from Array 
+
+const removeDublicate =(arr)=> {
+  return [... new Set(arr)]
+}
+
+//console.log(removeDublicate([1, 1, 1, 2, 2, 3, 3, 4]))
+
+
+//Problem-5: Count Vowels
+
+const countVowels = (str) => {
+  let count = 0;
+  let vowels = "aeiou";
+
+  for(let chart of str.toLowerCase()) {
+    if(vowels.includes(chart)) {
+      count ++
     }
+  }
+
+  return count;
 }
 
-console.log(countVowels("javascript"))
+// console.log(countVowels("javascript"))
+
+
+//Problem -6  Count Character Frequency
+//
