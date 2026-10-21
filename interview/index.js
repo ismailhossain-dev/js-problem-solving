@@ -67,3 +67,5 @@ const countVowels = (str) => {
 
 //Problem -6  Count Character Frequency
 //
+
+console.log("Start problem solving")
